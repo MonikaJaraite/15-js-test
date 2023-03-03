@@ -4,6 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "10": "nodemon ./js/ex-10.js",
+    "09": "nodemon ./js/ex-09.js",
+    "08": "nodemon ./js/ex-08.js",
+    "07": "nodemon ./js/ex-07.js",
+    "06": "nodemon ./js/ex-06.js",
+    "05": "nodemon ./js/ex-05.js",
+    "04": "nodemon ./js/ex-04.js",
+    "03": "nodemon ./js/ex-03.js",
+    "02": "nodemon ./js/ex-02.js",
     "01": "nodemon ./js/ex-01.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
