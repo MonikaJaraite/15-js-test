@@ -15,8 +15,27 @@ function generateRandomLetter() {
 
 const arr = [];
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 0; i <= 99; i++) {
     arr.push(generateRandomLetter(1, 4));
 }
 
 console.log(arr);
+
+let a = 0;
+let b = 0;
+let c = 0;
+let d = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === "A") {
+        a++;
+    } else if (arr[i] === "B") {
+        b++;
+    } else if (arr[i] === "C") {
+        c++;
+    } else if (arr[i] === "D") {
+        d++;
+    }
+}
+
+console.log('A raidziu yra: ' + a + ', ' + 'B raidziu yra: ' + b + ', ' + 'C raidziu yra: ' + c + ', ' + 'D raidziu yra: ' + d + '. ');
